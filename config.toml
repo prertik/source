@@ -1,0 +1,33 @@
+baseURL = "https://prertik.github.io"
+languageCode = "en-us"
+title = "(recur code)"
+theme = "after-dark"
+paginate = 10
+
+enableRobotsTxt = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[[menu.main]]
+    name = "All"
+    identifier = "all"
+    url = "/"
+
+[[menu.main]]
+    name = "Code"
+    identifier = "code"
+    url = "/categories/code/"
+
+[[menu.main]]
+    name = "Extra Writings"
+    identifier = "ewrites"
+    url = "/categories/ewrites/"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/about/"
+
+
