@@ -5,6 +5,7 @@ theme = "after-dark"
 paginate = 10
 
 enableRobotsTxt = true
+googleAnalytics = "UA-108523579-1"
 
 [taxonomies]
 tag = "tags"
