@@ -31,4 +31,8 @@ category = "categories"
     identifier = "about"
     url = "/about/about/"
 
+[[menu.main]]
+    name = "Git"
+    identifier = "git"
+    url = "/categories/git/"
 
