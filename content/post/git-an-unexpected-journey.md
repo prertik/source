@@ -1,6 +1,5 @@
 +++
-date = "2018-05-01T6:00:00+5:45"
-publishdate = "2018-05-01T6:00:00+5:45"
+date = "2018-05-01T06:00:00"
 title = "Git: An Unexpected Journey"
 tags = ["Git", "C", "Shell", "Open-source"]
 categories = ["git"]
@@ -9,6 +8,7 @@ images = [
     "https://prertik.github.io/static/sanic.png"
 ]
 next = ""
+author = "Pratik Karki"
 +++
 
 This summer of '18, I'll be working in Git. Git is an insanely
