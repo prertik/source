@@ -1,5 +1,6 @@
 +++
-date = "2018-05-01T10:00:00+5:45"
+date = "2018-05-01T6:00:00+5:45"
+publishdate = "2018-05-01T6:00:00+5:45"
 title = "Git: An Unexpected Journey"
 tags = ["Git", "C", "Shell", "Open-source"]
 categories = ["git"]
@@ -35,6 +36,35 @@ First you must do is fire up terminal and run `git diff --check`.
 If you don't see anything there, it's good you have not introduced
 whitespaces in your code. But, if you do see codes there fix
 those whitespaces. Git community is picky about whitespaces.
+
+Now, is the right time to run some tests. Always remember to test your
+changes. Running test suite provided in Git is the most preferred but
+if your change introduces something new, you can write a new test.
+There are two kinds of tests you can do:
+
+* Functional tests: These are the core Git tests. These test scripts
+are mandatory to be run for changes and test must pass to introduce
+new patch. The easiest way to run all the tests is navigate to `/t`
+directory and run `make`. Another way is to run with any [TAP harness](https://testanything.org/).
+You can parallel test by using prove.
+`$ prove --timer --jobs 15 ./t[0-9]*.sh`
+You can also run single test by running the shell script with a name
+like `tNNNN-descriptor.sh`. If new functionality is added by you then
+unit tests need to be created by creating helper commands which have
+limited action. Keep these in `t/helpers`. To add helper add a line to
+`t/Makefile` and to `.gitignore` for the binary file you added. The Git
+community prefers functional tests using the full git executable, so try
+to exercise your new code using git commands before creating a test helper.
+To find out why a test failed, repeat the test with the -x -v -d -i options
+and then navigate to the appropriate "trash" directory to see the data shape
+that was used for the test failed step. More information can be found in [t/README](https://github.com/git/git/blob/master/t/README)
+
+* Performance tests: If your changes improve performance or if your patch
+can affect performance, you need to run the tests in `t/perf`. To check the
+change in performance use `t/perf/run` script.
+More information about performance tests can be found in this awesome guideline
+written in Git for Windows [Contributing document](https://github.com/git-for-windows/git/blob/master/CONTRIBUTING.md#performance-tests)
+which is applicable for both Linux and Windows.
 
 Then run `git log <file you modified>` and see all the changes you made.
 Now, think of good commit message. This is very important as it
@@ -84,7 +114,7 @@ and perl scripts into portable and performant C code, making them built-ins.
 The major advantage of doing this is improvement in efficiency and performance.
 
 So, what does rebase do?
-There's a cool begineer friendly introduction to rebase [here](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had)
+There's a cool beginner friendly introduction to rebase [here](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had)
 Or, you can follow, [git-rebase documentation](https://git-scm.com/docs/git-rebase).
 I'm not going to explain again here as it is already done in a much
 better way in both the git documentation and the post.
