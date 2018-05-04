@@ -12,32 +12,33 @@ SectionPagesMenu = "main"
 [params]
     author = "Pratik Karki"
     powered_by = false
+    show_menu = true
+
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 [[menu.main]]
-    name = "All"
-    identifier = "all"
+    name = "Home"
+    weight = 1
+    identifier = "home"
     url = "/"
 
 [[menu.main]]
-    name = "Code"
-    identifier = "code"
-    url = "/categories/code/"
-
-[[menu.main]]
     name = "Extra Writings"
+    weight = 4
     identifier = "ewrites"
     url = "/categories/ewrites/"
 
 [[menu.main]]
     name = "About"
+    weight = 2
     identifier = "about"
     url = "/about/about/"
 
 [[menu.main]]
     name = "Git"
+    weight = 3
     identifier = "git"
     url = "/categories/git/"
 
