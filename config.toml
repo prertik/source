@@ -4,10 +4,14 @@ title = "(recur code)"
 theme = "after-dark"
 paginate = 10
 
-enableRobotsTxt = true
+enableRobotsTXT = true
 googleAnalytics = "UA-108523579-1"
 disqusShortname = "prertik-github-io"
+SectionPagesMenu = "main"
 
+[params]
+    author = "Pratik Karki"
+    powered_by = false
 [taxonomies]
 tag = "tags"
 category = "categories"
