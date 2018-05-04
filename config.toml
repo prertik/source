@@ -6,6 +6,7 @@ paginate = 10
 
 enableRobotsTxt = true
 googleAnalytics = "UA-108523579-1"
+disqusShortname = "prertik-github-io"
 
 [taxonomies]
 tag = "tags"
