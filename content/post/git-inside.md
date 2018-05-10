@@ -1,6 +1,6 @@
 +++
 date = "2018-05-09"
-title = "Git Inside®"
+title = "Git Inside® Part I: Don't Fear the Rebase"
 description = "This is a two part blog. This is Part I of II."
 categories = ["git"]
 tags = ["git", "c", "shell", "rebase", "merge"]
@@ -195,6 +195,7 @@ With that said, let's look onto the scenarios where you can use Rebase or the ca
 
 3. After making a pull request, you mustn't do `git rebase` as it becomes a public branch for others to review the code. Hence, before submitting the pull request/s, it is better to use interactive rebase to clean up the code.
 
+There is another important flag `-p` or `--preserve-merges` which you can use with rebase.`--preserve merges` will recreate merge commits instead of flattening the history. It will replay commits a merge commit introduces. The merge conflict resolutions are not preserved. `--preserve merges` uses `--interactive` internally and combining it with `--interactive` option while rebasing can trigger a bug present which can produce dubious results when re-ordering the commits. The bug detail can be found [here](https://git-scm.com/docs/git-rebase#_bugs).
 
 All in all both merging and rebasing are equally important. Rebase is an awesome tool we're lucky to have in our toolbox. Some might complain that they had to bisect through several hundred commits to track down the bug which was introduced due to a faulty rebase. To prevent these problems, one of my mentor during this GSoC, [Christian Couder](https://twitter.com/christiancouder) [pointed](http://colabti.org/irclogger/irclogger_log/git-devel?date=2018-05-06) out that using `git rebase --exec make master` it's possible to check that each commit from master to the tip of the current branch builds. So, rebase can help people check that rebase did not introduce bugs. He also pointed out that using rebase with `--exec`, we can run tests for each commit while using rebase.
 
