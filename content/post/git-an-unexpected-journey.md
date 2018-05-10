@@ -3,11 +3,11 @@ date = "2018-05-01T06:00:00"
 title = "Git: An Unexpected Journey"
 tags = ["Git", "C", "Shell", "Open-source"]
 categories = ["git"]
-description = ""
+description = "A gentle git introduction"
 images = [
     "https://prertik.github.io/static/sanic.png"
 ]
-next = ""
+next = "https://prertik.github.io/content/post/git-inside.md"
 author = "Pratik Karki"
 +++
 
