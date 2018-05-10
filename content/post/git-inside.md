@@ -1,11 +1,12 @@
 +++
-date = "2018-05-09"
+date = "2018-05-10"
 title = "Git Inside® Part I: Don't Fear the Rebase"
 description = "This is a two part blog. This is Part I of II."
 categories = ["git"]
 tags = ["git", "c", "shell", "rebase", "merge"]
 images = [
-
+"https://prertik.github.io/static/tenor.gif",
+"https://prertik.github.io/static/applause.gif"
 ]
 next = ""
 author = "Pratik Karki"
@@ -14,6 +15,11 @@ Ok, you've read my previous Git blog. There were nice feedback in the [mailing l
 There are \_a\_lot\_of\_posts\_ about [`git-rebase`](https://git-scm.com/docs/git-rebase) which talk of benefits of rebase and some are negative towards rebase.
 By convention, it is understood that `rebase` is harder to understand for beginners that's why most will prefer merging. Even Github has merging of pull requests by default and to do rebase and merge you'll have to select it from the drop-down menu in the pull-requests section.
 
+Don't be afraid of rebase and after reading this think of all the things you could have done if you had known rebase. 
+
+After understanding the power of rebase and use it to make your branches more cleaner and linear. You will be the cool one.
+
+{{< figure src="/static/tenor.gif" >}}
 
 Ok, let's de-structure `git-rebase`. The general idea of rebase is that it is used to reapply commits on top of another base tip. 
 Suppose, you're working on a tech company which has many Engineers and you're choice of DVCS is Git. Now, to introduce new features, the developers will work in their own feature branch which has to be someday merged or rebased into the master.
@@ -206,6 +212,8 @@ This post was about the philosophy and general idea behind "rebase" and the foll
 With this my research phase is done and will now start implementing changes. You can find me in `# git-devel` as "prertik".
 
 Shout out to all the awesome developers behind Git.
+
+{{< figure src="/static/applause.gif" >}}
 
 Thanks to [Christian Couder](https://twitter.com/christiancouder) and [Johannes Schindelin](https://twitter.com/jschindelin) for helping me research on git-rebase. 
 
