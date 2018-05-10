@@ -8,7 +8,6 @@ images = [
 "https://prertik.github.io/static/tenor.gif",
 "https://prertik.github.io/static/applause.gif"
 ]
-next = ""
 author = "Pratik Karki"
 +++
 Ok, you've read my previous Git blog. There were nice feedback in the [mailing list](https://public-inbox.org/git/CAH5451mJO3Bgg9DST57fqcGGU-SPrcSECjXi0qOqeKsW0uaRzg@mail.gmail.com/) and in emails and IRC. This week I did a close study on `git-rebase.` 

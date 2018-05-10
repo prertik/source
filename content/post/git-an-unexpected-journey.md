@@ -7,7 +7,6 @@ description = "A gentle git introduction"
 images = [
     "https://prertik.github.io/static/sanic.png"
 ]
-next = "https://prertik.github.io/post/git-inside/"
 author = "Pratik Karki"
 +++
 
