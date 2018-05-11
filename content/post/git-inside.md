@@ -21,7 +21,7 @@ After understanding the power of rebase and use it to make your branches more cl
 {{< figure src="/static/tenor.gif" >}}
 
 Ok, let's de-structure `git-rebase`. The general idea of rebase is that it is used to reapply commits on top of another base tip. 
-Suppose, you're working on a tech company which has many Engineers and your choice of DVCS is Git. Now, to introduce new features, the developers will work in their own feature branch which has to be someday merged or rebased into the master.
+Suppose, you're working on a tech company which has many Engineers and your choice of DVCS is Git. Now, to introduce new features, the developers will work in their own feature branch which has to be merged someday or rebased into the master.
 
 Suppose, the structure of the branch is:
 ```ascii
