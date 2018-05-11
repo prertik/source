@@ -222,7 +222,7 @@ Thanks to [Christian Couder](https://twitter.com/christiancouder) and [Johannes 
 
 ## References
 
-Thanks to Christian for pointing me out the awesome blogs by [Michael Haggerty](http://softwareswirl.blogspot.com/2009/08/rebase-with-history-implementation.html) who is committer on Git and has written an awesome tool [git-imerge](http://softwareswirl.blogspot.fr/2013/05/git-imerge-practical-introduction.html) which introduce some awesome ideas.
+Thanks to Christian for sharing the awesome blogs by [Michael Haggerty](http://softwareswirl.blogspot.com/2009/08/rebase-with-history-implementation.html) who is one of the top committer on Git and has written an awesome tool [git-imerge](http://softwareswirl.blogspot.fr/2013/05/git-imerge-practical-introduction.html) which introduces some awesome ideas.
 
 \_a\_lot\_of\_posts\_regarding\_rebase\_:
 
