@@ -21,7 +21,7 @@ After understanding the power of rebase and use it to make your branches more cl
 {{< figure src="/static/tenor.gif" >}}
 
 Ok, let's de-structure `git-rebase`. The general idea of rebase is that it is used to reapply commits on top of another base tip. 
-Suppose, you're working on a tech company which has many Engineers and your choice of DVCS is Git. Now, to introduce new features, the developers will work in their own feature branch which has to be merged someday or rebased into the master.
+Suppose, you're working in a tech company which has many Engineers and your choice of DVCS is Git. Now, to introduce new features, the developers will work in their own feature branch which has to be merged someday or rebased into the master.
 
 Suppose, the structure of the branch is:
 ```ascii
@@ -31,7 +31,7 @@ M0---M1---M2 master
     \
      B1---B2 feature
 ```
-Now, you're base branch is M0 and the developers based their feature branch B1 on it. But, since there is always development going on a tech company. The master branch gradually develops to M1 and M2. While the base branch also gradually develops to B2. The developers will find certain aspects have changed in the code base and they need to keep up with the master branch.
+Now, you're base branch is M0 and the developers based their feature branch B1 on it. But, since there is always development going on in a tech company. The master branch gradually develops to M1 and M2. While the feature branch also gradually develops to B2. The developers will find certain aspects have changed in the code base and they need to keep up with the master branch.
 Hence they will do,
 ```git
 git rebase master
@@ -45,7 +45,7 @@ M0---M1---M2 master
              \
               B1'---B2' feature
 ```
-Now, life goes on, hence, more development happens on. Assume the structure after some time:
+Now, life goes on, hence, more code is written and branches keep on growing. Assume the structure after some time:
 ```ascii
 M0---M1---M2---M3---B3'---M4---M5---M6---M7 master
            \
