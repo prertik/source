@@ -53,7 +53,7 @@ M0---M1---M2---M3---B3'---M4---M5---M6---M7 master
              \
               B1'---B2'---B3---B4---B5 feature
 ```
-Now, again the developers will rebase. But, this time let's assume feature B3 was crucial for master and was already sent a patch via mail and it has been present there. While rebasing it will be automatically skipped.
+Now, again the developers will rebase. But, this time let's assume feature B3 was crucial for master and was already sent as a patch via mail and it was merged into master. While rebasing it will be automatically skipped.
 The new structure becomes:
 ```ascii
 M0---M1---M2---M3---B3'---M4---M5---M6---M7 master
