@@ -14,7 +14,7 @@ Ok, you've read my previous Git blog. There were nice feedback in the [mailing l
 There are \_a\_lot\_of\_posts\_ about [`git-rebase`](https://git-scm.com/docs/git-rebase) which talk of benefits of rebase and some are negative towards rebase.
 By convention, it is understood that `rebase` is harder to understand for beginners that's why most will prefer merging. Even Github has merging of pull requests by default and to do rebase and merge you'll have to select it from the drop-down menu in the pull-requests section.
 
-Don't be afraid of rebase and after reading this think of all the things you could have done if you had known rebase. 
+Don't be afraid of rebase and after reading this, think of all the things you could have done if you had known rebase. 
 
 After understanding the power of rebase and use it to make your branches more cleaner and linear. You will be the cool one.
 
