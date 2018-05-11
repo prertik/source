@@ -189,8 +189,8 @@ With that said, let's look onto the scenarios where you can use Rebase or the ca
 1. Never use rebase on public branches.
    Never rebase the master branch onto your feature branch. Since, this will only trigger change in your repository and everyone will be working on original master. You will need to synchronize your master branch with the original one i.e. merge them back together because your master branch history has diverged from everybody else's. You will need two sets of commits that does the same change to fix and can be very confusing. So, think carefully before running `git rebase`.
    
-2. Be careful or omit --force flag in pushing a rebased master branch into remote repository.
-   Only use --force flag if you know what you're doing. The conflict messages are there to help you find the errors. One of the only times you might need to force-push is when you've performed a local cleanup after you've pushed a private feature branch to a remote repository.
+2. Be careful or omit `--force` flag in pushing a rebased master branch into remote repository.
+   Only use `--force` flag if you know what you're doing. The conflict messages are there to help you find the errors. One of the only times you might need to force-push is when you've performed a local cleanup after you've pushed a private feature branch to a remote repository.
 
 ## Best cases for Rebase use:
 
