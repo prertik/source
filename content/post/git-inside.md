@@ -182,7 +182,7 @@ git rebase --continue
 
 There is also an important case where you need to recover from upstream rebase. The rebase [doc](https://git-scm.com/docs/git-rebase#_recovering_from_upstream_rebase) details nicely and enough for understanding it. Don't miss it.
 
-There are people's different opinions regarding rebase and merge. People claim one is better than the other. But, rather than claiming superiority of one over another and creating another flame war, we must embrace both as both are very important for varying situations. The amazing thing about Git is it doesn't force one more over another. It does what the maintainer prefers. So, using over another is a matter of taste and may be due to certain cases but, claiming never to use one and always use another one because it is better is doing un-justice to the tooling and missing out on a great tool. 
+There are people's different opinions regarding rebase and merge. People claim one is better than the other. But, rather than claiming superiority of one over another and creating another flame war, we must embrace both as both are very important for varying situations. The amazing thing about Git is it doesn't force one more over another. It does what the maintainer prefers. So, using one over another is a matter of taste and may be due to certain cases but, claiming never to use one and always use another one because it is better is doing un-justice to the tooling and missing out on a great tool. 
 
 With that said, let's look onto the scenarios where you can use Rebase or the cases for using Rebasing.
 
