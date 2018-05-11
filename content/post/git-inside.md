@@ -64,7 +64,7 @@ M0---M1---M2---M3---B3'---M4---M5---M6---M7 master
 ```
 As you can see rebase creates a much more linear structure. This creates a neat and clean patch series which is easy for reviewer to review. The patches sent are all on the current state of master and is optimized for reviewing.
 
-If you had do the same process but merging at each step instead of rebasing i.e. doing repeated merges. The structures would roughly become:
+If you had to do the same process but merging at each step instead of rebasing i.e. doing repeated merges. The structures would roughly become:
 ```ascii
 M0---M1---M2------M3---M4---M5---M6---M7
  \         \       \                   \
