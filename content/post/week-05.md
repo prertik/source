@@ -2,7 +2,7 @@
 date = "2018-06-04"
 title = "Week 05 Progress"
 description = ""
-draft = true
+draft = false
 categories = ["git"]
 tags = ["git", "c", "shell"]
 +++
