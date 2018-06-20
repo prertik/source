@@ -18,7 +18,7 @@ Maybe try this:
 ```shell
 ./git --exec-path="$PWD" -c rebase.usebuiltin=true rebase HEAD^
 ```
-Or if you feel more adventurous maybe try this?
+Or if you want to use your terminal more maybe try this?
 
 ```shell
 mkdir 123
@@ -35,11 +35,11 @@ cd ..
 Did you get a message saying `warning: TODO`? Well it's because the `apply_autostash()` hasn't been implemented yet...
 Modifying this and making it run will be handled in later patch.
 
-Well if you try `echo $?` it returns 0 which is a proof of saying that our code works till that point i.e. until the `apply_autostash()`. Still lots of environment variables need to be set. There's still _a\_lot\_ to do but we are close to the promised awesome rebase.
+Well if you try `echo $?` it returns 0 which is a proof of saying that our code works till that point i.e. until the `apply_autostash()`. Still lots of environment variables need to be set. There's still _a\_lot\_ to do as we are moving steadily towards a working builtin rebase. The full rebase as promised is very hard to reach as it requires lots and lots of configurations and coding. Time will tell how much I can complete in this GSoC time period and with every week the code is somewhat progressing towards something awesome. :-)
 
 There are lots of awesome things going on here which I'll explain in the blog post where I'll breakdown every functions and total internal workings of my code of builtin rebase.
 
 Oh and one important thing if you want to have a collaborative coding session but are waiting for some positive review to try [Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share).
 You have mine. It works nicely. Though it's still in preview and lots of improvements are needed, it's very usable and get you more productive.
 
-That's it for this week.
+That's it for this week. Stay tuned.
