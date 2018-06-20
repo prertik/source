@@ -13,7 +13,6 @@ SectionPagesMenu = "main"
     author = "Pratik Karki"
     powered_by = false
     show_menu = true
-    theme_variant = "hack light"
 
 [taxonomies]
 tag = "tags"
