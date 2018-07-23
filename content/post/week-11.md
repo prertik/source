@@ -9,7 +9,7 @@ tags = ["git", "shell", "c"]
 
 Hello everyone, How are you?
 
-I apologize for now updating my blog post the previous week.
+I apologize for not updating my blog post the previous week.
 
 So, on week 11, if you had followed my week 10 post, you would think by this time I will have gotten all the options of the rebase. Well, my week technically started by cleaning all the options to create them as separate commits and polish them for reviewing. Why is that more important? Well, it's because every reviewer is a human being and it's a natural tendency to review a lot of smaller things rather than a big monolithic one. So, I started working on the commit messages and ofcourse using the awesome rebase to do it.
 
