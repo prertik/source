@@ -3,5 +3,5 @@
 	url = https://github.com/comfusion/after-dark.git
 [submodule "public"]
 	path = public
-	url = git@github.com:prertik/prertik.github.io.git
+	url = https://github.com/prertik/prertik.github.io.git
 	branch = master
