@@ -1,5 +1,5 @@
 +++
-date = "2018-08-04"
+date = "2018-08-06"
 title = "Week 13 - the last week of GSoC Work period!"
 description = ""
 draft = false
