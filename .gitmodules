@@ -1,6 +1,6 @@
 [submodule "themes/after-dark"]
 	path = themes/after-dark
-	url = https://github.com/comfusion/after-dark.git
+	url = https://git.habd.as/comfusion/after-dark.git
 [submodule "public"]
 	path = public
 	url = https://github.com/prertik/prertik.github.io.git
