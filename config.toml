@@ -1,7 +1,7 @@
 baseURL = "https://prertik.github.io"
 languageCode = "en-us"
 title = "(recur code)"
-theme = "after-dark"
+theme = "papercss-hugo-theme"
 paginate = 10
 
 enableRobotsTXT = true
@@ -9,10 +9,19 @@ googleAnalytics = "UA-108523579-1"
 disqusShortname = "prertik-github-io"
 SectionPagesMenu = "main"
 
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
 [params]
     author = "Pratik Karki"
     powered_by = false
     show_menu = true
+
+[params.hackcss]
+  palette = "light"
 
 [taxonomies]
 tag = "tags"
