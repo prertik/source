@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on (recur code)</title>
+    <link>https://prertik.github.io/post/</link>
+    <description>Recent content in Posts on (recur code)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://prertik.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 13 - the last week of GSoC Work period!</title>
+      <link>https://prertik.github.io/week-13-the-last-week/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-13-the-last-week/</guid>
+      <description>Hello everyone, Sorry for the late post as you know I have been very busy lately giving finishing touches to the builtin/rebase.c. Yes, you read it right. We have a complete rebase.c, it has some nits still, as some tests particularly t5520 and t7406 are not passing but the good news is, the tests t34* are passing. Yipee!
+Regarding the status on the mailing list, after some regression tests suggested by @dscho, we found out that certain key changes need to be done to v5, so I requested the Git maintainer to hold it for some time i.</description>
+    </item>
+    
+    <item>
+      <title>Week 11 and Week 12 merge!</title>
+      <link>https://prertik.github.io/week-11/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-11/</guid>
+      <description>Hello everyone, How are you?
+I apologize for not updating my blog post the previous week.
+So, on week 11, if you had followed my week 10 post, you would think by this time I will have gotten all the options of the rebase. Well, my week technically started by cleaning all the options to create them as separate commits and polish them for reviewing. Why is that more important? Well, it&amp;rsquo;s because every reviewer is a human being and it&amp;rsquo;s a natural tendency to review a lot of smaller things rather than a big monolithic one.</description>
+    </item>
+    
+    <item>
+      <title>Week 10 Progress</title>
+      <link>https://prertik.github.io/week-10/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-10/</guid>
+      <description>Hello from Kathmandu where it has been raining a lot!
+This week also there were some development on rebase land!
+Continuing form the past week blog post, I submitted newer iterations of patch. Well, after some excellent review, the patch seemed to need some important changes, it was merged into pu but a re-roll is expected to fix some issues in it. New iteration of this patch series will take some time to arrive.</description>
+    </item>
+    
+    <item>
+      <title>Week 09 Progress</title>
+      <link>https://prertik.github.io/week-09/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-09/</guid>
+      <description>Hi,
+This week I submitted patch v1 ,v2 and am working on v3. On the other hand, there are other works going on towards converting the options of git-rebase.sh. Currently, the options supported are --onto, --quiet, --verify, --continue and support for an upstream that is actually a symmetric range i.e. &amp;lt;rev1&amp;gt;...&amp;lt;rev2&amp;gt; is also done.
+All of these progress can be seen from pull requests. Cleanup and addition of proper message will be done in the coming days.</description>
+    </item>
+    
+    <item>
+      <title>Week 08 Progress</title>
+      <link>https://prertik.github.io/week-08/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-08/</guid>
+      <description>Hello Everyone.
+This is week was awesome. Though there were some difficulties due to electricity cuts, cool improvements were made to the previous patch series. The patch series I&amp;rsquo;m working on hit a milestone. Now, it can perform a real rebase. Of course, the environment variables are kept default and this might introduce bugs but for development purposes; to see real development, this is one amazing way. There was also some work on refactoring out codes from sequencer.</description>
+    </item>
+    
+    <item>
+      <title>:-/</title>
+      <link>https://prertik.github.io/experience/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/experience/</guid>
+      <description>A week ago I had promised an hour and a half of every friday to teach some interested kids about computers who are currently studying in a Government run school. This idea of contributing to teach others was proposed to be my a genuine social worker Suraj Karki.
+Here are my findings on the first day:
+ There are three types of school found in Nepal, i) International school: funded and run by foreigners, ii) Boarding schools: funded by local people or some organization and iii) Government school: funded and run by the Government.</description>
+    </item>
+    
+    <item>
+      <title>Week 07 Progress</title>
+      <link>https://prertik.github.io/week-07/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-07/</guid>
+      <description>Hello everyone.
+This week there was lots of progress in builtin rebase. Lots of thanks to Johannes Schindelin, without him the patch wouldn&amp;rsquo;t be in current state. Rather than work on emulating smaller functions from git-rebase.sh like I explained previously in my blog post. Me and Dscho went a lot farther and implemented a super simple rebase. You can find the code here. If you&amp;rsquo;re feeling adventurous get the code and run some rebase tasks.</description>
+    </item>
+    
+    <item>
+      <title>Week 06 Progress</title>
+      <link>https://prertik.github.io/week-06/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-06/</guid>
+      <description>Hi everyone.
+Hope all of you readers had a great weekend. This week I worked on emulating run_specific_rebase () which is in git-rebase.sh. Firstly, I have tried to emulate specifically, this shell script:
+. git-rebase--$type git_rebase__$type${preserve_merges:+__preserve_merges}  The work in progress patch of this conversion can be found here. The patch isn&amp;rsquo;t ready as apply_autostash() function need some extra working. To make it working slight modifications to sequencer.c is required which will be done in the coming days.</description>
+    </item>
+    
+    <item>
+      <title>Week 05 Progress</title>
+      <link>https://prertik.github.io/week-05/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-05/</guid>
+      <description>Hello everyone,
+This week I have been working on migrating small shell scripting component to C builtin. The work will be towards parsing a small modular component so that it can directly be used. With the development of my current patch, the rebase built-in that I will work on can do a super simple rebase.
+I might be able to demonstrate something in 2-3 days.
+That&amp;rsquo;s a wrap up for this week.</description>
+    </item>
+    
+    <item>
+      <title>Week 03 and Week 04 Progress</title>
+      <link>https://prertik.github.io/week-03/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/week-03/</guid>
+      <description>Hi everyone,
+Sorry for the late blog. There wasn&amp;rsquo;t more action on week 03 and there was some action on week 04 *finally*. So, I had to merge both.
+Oh and a note to the readers, the previously assured Part II of Git Rebase will take some time as I plan to explain you the workings from the rebase builtin I will create. :-)
+So, during these two weeks, a skeletal for rebase builtin was created.</description>
+    </item>
+    
+    <item>
+      <title>Git Inside® Part I: Don&#39;t Fear the Rebase</title>
+      <link>https://prertik.github.io/git-inside/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/git-inside/</guid>
+      <description>Ok, you&amp;rsquo;ve read my previous Git blog. There were nice feedback in the mailing list and in emails and IRC. This week I did a close study on git-rebase. There are _a_lot_of_posts_ about git-rebase which talk of benefits of rebase and some are negative towards rebase. By convention, it is understood that rebase is harder to understand for beginners that&amp;rsquo;s why most will prefer merging. Even Github has merging of pull requests by default and to do rebase and merge you&amp;rsquo;ll have to select it from the drop-down menu in the pull-requests section.</description>
+    </item>
+    
+    <item>
+      <title>Git: An Unexpected Journey</title>
+      <link>https://prertik.github.io/git-an-unexpected-journey/</link>
+      <pubDate>Tue, 01 May 2018 06:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/git-an-unexpected-journey/</guid>
+      <description>This summer of &amp;lsquo;18, I&amp;rsquo;ll be working in Git. Git is an insanely awesome software. I still remember the day I learned about Git via Github and instantly got hooked. Git isn&amp;rsquo;t just an everyday software you encounter, just look at the documentation and observe closely how it works and you will understand the rock solid design. Enough with Git introduction already. There are too much posts describing Git already.</description>
+    </item>
+    
+  </channel>
+</rss>

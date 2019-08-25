@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-source on (recur code)</title>
+    <link>https://prertik.github.io/tags/open-source/</link>
+    <description>Recent content in Open-source on (recur code)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2018 06:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://prertik.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git: An Unexpected Journey</title>
+      <link>https://prertik.github.io/git-an-unexpected-journey/</link>
+      <pubDate>Tue, 01 May 2018 06:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/git-an-unexpected-journey/</guid>
+      <description>This summer of &amp;lsquo;18, I&amp;rsquo;ll be working in Git. Git is an insanely awesome software. I still remember the day I learned about Git via Github and instantly got hooked. Git isn&amp;rsquo;t just an everyday software you encounter, just look at the documentation and observe closely how it works and you will understand the rock solid design. Enough with Git introduction already. There are too much posts describing Git already.</description>
+    </item>
+    
+  </channel>
+</rss>

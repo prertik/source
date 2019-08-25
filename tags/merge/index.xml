@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>merge on (recur code)</title>
+    <link>https://prertik.github.io/tags/merge/</link>
+    <description>Recent content in merge on (recur code)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://prertik.github.io/tags/merge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Inside® Part I: Don&#39;t Fear the Rebase</title>
+      <link>https://prertik.github.io/git-inside/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/git-inside/</guid>
+      <description>Ok, you&amp;rsquo;ve read my previous Git blog. There were nice feedback in the mailing list and in emails and IRC. This week I did a close study on git-rebase. There are _a_lot_of_posts_ about git-rebase which talk of benefits of rebase and some are negative towards rebase. By convention, it is understood that rebase is harder to understand for beginners that&amp;rsquo;s why most will prefer merging. Even Github has merging of pull requests by default and to do rebase and merge you&amp;rsquo;ll have to select it from the drop-down menu in the pull-requests section.</description>
+    </item>
+    
+  </channel>
+</rss>

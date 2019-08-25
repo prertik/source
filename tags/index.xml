@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on (recur code)</title>
+    <link>https://prertik.github.io/tags/</link>
+    <description>Recent content in Tags on (recur code)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://prertik.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>c</title>
+      <link>https://prertik.github.io/tags/c/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://prertik.github.io/tags/git/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://prertik.github.io/tags/shell/</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experience</title>
+      <link>https://prertik.github.io/tags/experience/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://prertik.github.io/tags/learn/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teach</title>
+      <link>https://prertik.github.io/tags/teach/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/teach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>merge</title>
+      <link>https://prertik.github.io/tags/merge/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rebase</title>
+      <link>https://prertik.github.io/tags/rebase/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/rebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-source</title>
+      <link>https://prertik.github.io/tags/open-source/</link>
+      <pubDate>Tue, 01 May 2018 06:00:00 +0000</pubDate>
+      
+      <guid>https://prertik.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
