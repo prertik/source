@@ -1,44 +1,43 @@
 baseURL = "https://prertik.github.io"
 languageCode = "en-us"
 title = "(recur code)"
-theme = "after-dark"
+theme = "papercss-hugo-theme"
 paginate = 10
 
 enableRobotsTXT = true
 googleAnalytics = "UA-108523579-1"
 disqusShortname = "prertik-github-io"
-SectionPagesMenu = "main"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
 
 [params]
     author = "Pratik Karki"
     powered_by = false
     show_menu = true
+    homeMetaContent = "A lazy hackers blog"
+    dateFormat = "Jan 2, 2006"
 
 [taxonomies]
 tag = "tags"
-category = "categories"
 
-[[menu.main]]
+[menu]
+  [[menu.nav]]
     name = "Home"
     weight = 1
-    identifier = "home"
     url = "/"
-
-[[menu.main]]
-    name = "Extra Writings"
-    weight = 4
-    identifier = "ewrites"
-    url = "/categories/ewrites/"
-
-[[menu.main]]
+  [[menu.nav]]
     name = "About"
     weight = 2
-    identifier = "about"
     url = "/about/about/"
-
-[[menu.main]]
-    name = "Git"
+  [[menu.nav]]
+    name = "Tags"
     weight = 3
-    identifier = "git"
-    url = "/categories/git/"
-
+    url = "/tags/"
+  [[menu.nav]]
+    name = "RSS"
+    weight = 4
+    url = "/index.xml"
