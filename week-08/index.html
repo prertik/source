@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.56.3" />
+  <link rel="canonical" href="https://prertik.github.io/week-08/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/custom.css">
+
+  
+  
+  <title>Week 08 Progress | (recur code)</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">(recur code)</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/about/">About</a></li>
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+        <li><a href="/index.xml">RSS</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Week 08 Progress</h1>
+
+
+<strong>Publish date: </strong>Jun 25, 2018
+<br>
+
+  <strong>Tags: </strong>
+  
+    <a href="https://prertik.github.io/tags/git">git</a>
+  
+    <a href="https://prertik.github.io/tags/shell">shell</a>
+  
+    <a href="https://prertik.github.io/tags/c">c</a>
+  
+
+
+
+  
+
+
+
+<p>Hello Everyone.</p>
+
+<p>This is week was awesome. Though there were some difficulties due to electricity cuts, cool improvements were made to the previous patch series. The <a href="https://github.com/git/git/pull/505">patch series</a> I&rsquo;m working on hit a milestone. Now, it can perform a real rebase. Of course, the environment variables are kept default and this might introduce bugs but for development purposes; to see real development, this is one amazing way. There was also some work on refactoring out codes from <code>sequencer.c</code> to <code>checkout.c</code> so that the codes can be used from our builtin rebase. So, after refactoring, a bug got introduced due to improper locking. This issue was fixed in <a href="https://github.com/git/git/pull/505/commits/b58689f0cce89525e5a985122213c077b8926862">this commit</a>. This patch series might debut in the mailing list in the coming days.</p>
+
+<p>You can test the patch using the same technique mentioned in previous blog post.</p>
+
+<p>Stay tuned for more.</p>
+
+  
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-108523579-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>

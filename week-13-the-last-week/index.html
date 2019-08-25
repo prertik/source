@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.56.3" />
+  <link rel="canonical" href="https://prertik.github.io/week-13-the-last-week/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/custom.css">
+
+  
+  
+  <title>Week 13 - the last week of GSoC Work period! | (recur code)</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">(recur code)</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/about/">About</a></li>
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+        <li><a href="/index.xml">RSS</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Week 13 - the last week of GSoC Work period!</h1>
+
+
+<strong>Publish date: </strong>Aug 6, 2018
+<br>
+
+  <strong>Tags: </strong>
+  
+    <a href="https://prertik.github.io/tags/git">git</a>
+  
+    <a href="https://prertik.github.io/tags/shell">shell</a>
+  
+    <a href="https://prertik.github.io/tags/c">c</a>
+  
+
+
+
+  
+
+
+
+<p>Hello everyone, Sorry for the late post as you know I have been very busy lately giving finishing touches to the <code>builtin/rebase.c</code>. Yes, you read it right. We have a complete <code>rebase.c</code>, it has some nits still, as some tests particularly <code>t5520</code> and <code>t7406</code> are not passing but the good news is, the tests <code>t34*</code> are passing. Yipee!</p>
+
+<p>Regarding the status on the mailing list, after some regression tests suggested by <a href="https://github.com/dscho">@dscho</a>, we found out that certain key changes need to be done to <a href="https://public-inbox.org/git/CAOZc8M_FJmMCEB1MkJrBRpLiFjy8OTEg_MxoNQTh5-brHxR-=A@mail.gmail.com/">v5</a>, so I requested the Git maintainer to hold it for some time i.e. not merge from <code>pu</code> to <code>next</code>. The good news is I&rsquo;m getting <code>v6</code> ready as of now.</p>
+
+<p>So, I&rsquo;ll be submitting all the commits of my branch to mailing list as soon as it is ready. As, I have stated in my previous blogs, there are lots of commits with specific changes as @dscho instructed me to do, as it will be more make easier for review process and won&rsquo;t get stuck in review cycle for long.</p>
+
+<p>I&rsquo;ll conclude my GSoC blog series with this status of my work.</p>
+
+<p>And a quick reminder, a detailed part II of <a href="https://prertik.github.io/post/git-inside/">Git Inside® Part I: Don&rsquo;t Fear the Rebase</a> will be posted (after the complete GSoC period) for more detail read of my conversion from <code>git-rebase.sh</code> to <code>builtin/rebase.c</code>. I&rsquo;ll closely describe the underlyings of Git or Git Internals in that blog post. So, do keep on checking out this blog.</p>
+
+  
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-108523579-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>

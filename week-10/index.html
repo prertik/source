@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.56.3" />
+  <link rel="canonical" href="https://prertik.github.io/week-10/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/custom.css">
+
+  
+  
+  <title>Week 10 Progress | (recur code)</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">(recur code)</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/about/">About</a></li>
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+        <li><a href="/index.xml">RSS</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Week 10 Progress</h1>
+
+
+<strong>Publish date: </strong>Jul 10, 2018
+<br>
+
+  <strong>Tags: </strong>
+  
+    <a href="https://prertik.github.io/tags/git">git</a>
+  
+    <a href="https://prertik.github.io/tags/shell">shell</a>
+  
+    <a href="https://prertik.github.io/tags/c">c</a>
+  
+
+
+
+  
+
+
+
+<p>Hello from Kathmandu where it has been raining a lot!</p>
+
+<p>This week also there were some development on <code>rebase</code> land!</p>
+
+<p>Continuing form the past week blog post, I submitted newer iterations of
+<a href="https://public-inbox.org/git/20180708180104.17921-1-predatoramigo@gmail.com/">patch</a>. Well, after some excellent review, the patch seemed to need some important changes, it was merged into <code>pu</code> but a re-roll is expected to fix some issues in <a href="https://public-inbox.org/git/CAPig+cQopjftfSoPHPZQAzECTAUUwZ-pXYMeWEV=VJBFm63t9g@mail.gmail.com/">it</a>. New iteration of this patch series will take some time to arrive.</p>
+
+<p>There were lots of works done this week to add options to builtin rebase. The tricky script to convert was <a href="https://github.com/prertik/git/blob/ae91dbb2556d7ea9f4e205fbf7847fa8579c64b4/TODO-rebase.sh#L661-L697">this</a> but it was <a href="https://github.com/git/git/pull/505/commits/2837d71846519366c9e7629d827190075e443165">done</a>. Then <code>git rebase &lt;upstream&gt; &lt;switch-to&gt;</code> was <a href="https://github.com/git/git/pull/505/commits/6c0bc8c08064dc37fab6baf57856e9b66eff04a7">implemented</a>. Another cool option <code>--force-rebase</code> was implemented along with <code>--signoff</code>.
+The options conversion will land into the mailing list in the upcoming weeks along with the new iteration of aforementioned patch.</p>
+
+<p>So, the plan for the upcoming week is to convert all the options (except the ones requiring other rebase types) and then work on other types of rebase.</p>
+
+<p>That&rsquo;s all for this week!</p>
+
+  
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-108523579-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>

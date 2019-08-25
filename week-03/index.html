@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.56.3" />
+  <link rel="canonical" href="https://prertik.github.io/week-03/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/custom.css">
+
+  
+  
+  <title>Week 03 and Week 04 Progress | (recur code)</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">(recur code)</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/about/">About</a></li>
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+        <li><a href="/index.xml">RSS</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Week 03 and Week 04 Progress</h1>
+
+
+<strong>Publish date: </strong>May 28, 2018
+<br>
+
+  <strong>Tags: </strong>
+  
+    <a href="https://prertik.github.io/tags/git">git</a>
+  
+    <a href="https://prertik.github.io/tags/c">c</a>
+  
+    <a href="https://prertik.github.io/tags/shell">shell</a>
+  
+
+
+
+  
+
+
+
+<p>Hi everyone,</p>
+
+<p>Sorry for the late blog. There wasn&rsquo;t more action on week 03 and there was some action on week 04 *finally*. So, I had to merge both.</p>
+
+<p>Oh and a note to the readers, the previously assured Part II of Git Rebase will take some time as I plan to explain you the workings from the rebase builtin I will create. :-)</p>
+
+<p>So, during these two weeks, a skeletal for rebase builtin was created. What&rsquo;s a skeletal? Well, it&rsquo;s a placeholder for the future rebase or the builtin rebase which will be the default when it gets there. There were some discussions on it, as can be seen from the initial <a href="https://github.com/git/git/pull/497">pull-request</a>. This is the beauty of open-source. Every awesome developers around the globe are on board to create awesome software to make life more easier. This is what most proprietary software lack. That&rsquo;s why they are buggy and crash while Git runs seamlessly.</p>
+
+<p>So, after few discussions with the mentors, Christian Couder, Stefan Beller and Johannes Schindelin, we finally agreed to an approach to make rebase into a buitlin proposed by Johannes which is similar to the technique he applied to create difftool to a builtin. You can find the new commit following this approach <a href="https://github.com/git/git/pull/497/commits/41531d0ba88cfe20e870d57ee437d0fcd7d05064">here</a>.</p>
+
+<p>This new technique currently falls back to the <code>legacy-rebase</code> which is a fancy term given to the rebase script file currently active. But, offers a configuration to run this builtin <code>rebase.useBuiltin</code> for future testing. There will be some extra functionalities to accommodate with this feature in the coming days, hopefully.</p>
+
+<p>That&rsquo;s a wrap for this week. More to follow next week and once again I apologize for the lateness for this blog post.</p>
+
+  
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-108523579-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>

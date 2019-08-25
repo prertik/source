@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.56.3" />
+  <link rel="canonical" href="https://prertik.github.io/week-07/">
+
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://prertik.github.io/css/custom.css">
+
+  
+  
+  <title>Week 07 Progress | (recur code)</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">(recur code)</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/about/about/">About</a></li>
+      
+        <li><a href="/tags/">Tags</a></li>
+      
+        <li><a href="/index.xml">RSS</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1 class="post-title">Week 07 Progress</h1>
+
+
+<strong>Publish date: </strong>Jun 19, 2018
+<br>
+
+  <strong>Tags: </strong>
+  
+    <a href="https://prertik.github.io/tags/git">git</a>
+  
+    <a href="https://prertik.github.io/tags/shell">shell</a>
+  
+    <a href="https://prertik.github.io/tags/c">c</a>
+  
+
+
+
+  
+
+
+
+<p>Hello everyone.</p>
+
+<p>This week there was lots of progress in builtin rebase. Lots of thanks to <a href="https://github.com/dscho">Johannes Schindelin</a>,
+without him the patch wouldn&rsquo;t be in current state. Rather
+than work on emulating smaller functions from <code>git-rebase.sh</code>
+like I explained previously in my blog post. Me and <a href="https://github.com/dscho">Dscho</a> went a lot farther and implemented a super simple rebase. You can find the code <a href="https://github.com/git/git/pull/505">here</a>.
+If you&rsquo;re feeling adventurous get the code and run some rebase tasks.
+Maybe try this:</p>
+
+<pre><code class="language-shell">./git --exec-path=&quot;$PWD&quot; -c rebase.usebuiltin=true rebase HEAD^
+</code></pre>
+
+<p>Or if you want to use your terminal more maybe try this?</p>
+
+<pre><code class="language-shell">mkdir 123
+git init 123
+cd 123
+touch a1
+git add a1
+git commit -m a1 a1
+for i in 2 3 4; do touch a$i; git add a$i; git commit -m a$i a$i; done
+cd ..
+./git --exec-path=$PWD -C 123 -c rebase.usebuiltin=true rebase HEAD~
+</code></pre>
+
+<p>Did you get a message saying <code>warning: TODO</code>? Well it&rsquo;s because the <code>apply_autostash()</code> hasn&rsquo;t been implemented yet&hellip;
+Modifying this and making it run will be handled in later patch.</p>
+
+<p>Well if you try <code>echo $?</code> it returns 0 which is a proof of saying that our code works till that point i.e. until the <code>apply_autostash()</code>. Still lots of environment variables need to be set. There&rsquo;s still _a_lot_ to do as we are moving steadily towards a working builtin rebase. The full rebase as promised is very hard to reach as it requires lots and lots of configurations and coding. Time will tell how much I can complete in this GSoC time period and with every week the code is somewhat progressing towards something awesome. :-)</p>
+
+<p>There are lots of awesome things going on here which I&rsquo;ll explain in the blog post where I&rsquo;ll breakdown every functions and total internal workings of my code of builtin rebase.</p>
+
+<p>Oh and one important thing if you want to have a collaborative coding session but are waiting for some positive review to try <a href="https://code.visualstudio.com/blogs/2017/11/15/live-share">Visual Studio Live Share</a>.
+You have mine. It works nicely. Though it&rsquo;s still in preview and lots of improvements are needed, it&rsquo;s very usable and get you more productive.</p>
+
+<p>That&rsquo;s it for this week. Stay tuned.</p>
+
+  
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-108523579-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>
