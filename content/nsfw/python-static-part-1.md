@@ -1,12 +1,11 @@
 +++
 date = "2019-12-31"
 title = "Static Typing on a data-intensive project - Part I"
-description = ""
-draft = false
+description = "This is a two part blog. This is Part I of II."
 categories = ["nsfw"]
 tags = ["python", "static", "typing", "programming"]
+author = "Pratik Karki"
 +++
-
 **Disclaimer: These posts on **NSFW** do not reflect the thoughts of my employer
 and in no way an outcome of my employers.**
 

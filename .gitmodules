@@ -4,3 +4,7 @@
 [submodule "themes/papercss-hugo-theme"]
 	path = themes/papercss-hugo-theme
 	url = https://github.com/zwbetz-gh/papercss-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:prertik/prertik.github.io.git
+	branch = master
