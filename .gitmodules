@@ -3,4 +3,4 @@
 	url = https://git.habd.as/comfusion/after-dark.git
 [submodule "themes/papercss-hugo-theme"]
 	path = themes/papercss-hugo-theme
-	url = git@github.com:zwbetz-gh/papercss-hugo-theme.git
+	url = https://github.com/zwbetz-gh/papercss-hugo-theme.git
