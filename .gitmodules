@@ -8,3 +8,9 @@
 	path = public
 	url = git@github.com:prertik/prertik.github.io.git
 	branch = master
+[submodule "hugo-ink"]
+	path = hugo-ink
+	url = https://github.com/knadh/hugo-ink.git
+[submodule "themes/hugo-ink"]
+	path = themes/hugo-ink
+	url = https://github.com/knadh/hugo-ink.git
