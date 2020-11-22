@@ -5,6 +5,8 @@
 [submodule "themes/ink"]
 	path = themes/ink
 	url = https://github.com/knadh/hugo-ink.git
+	branch = master
 [submodule "themes/ezhil"]
 	path = themes/ezhil
 	url = https://github.com/vividvilla/ezhil.git
+	branch = master
