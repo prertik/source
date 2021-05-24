@@ -1,7 +1,7 @@
-baseURL = "https://prertik.github.io"
+baseURL = "https://prertik.com"
 languageCode = "en-us"
 title = "(recur code)"
-theme = "ezhil"
+theme = "cupper-hugo-theme"
 copyright = "© Copyright notice"
 paginate = 10
 
@@ -27,7 +27,7 @@ disqusShortname = "prertik-github-io"
     powered_by = false
     featherIconsCDN = true
     # Content types to disable Disqus on.
-	  disableDisqusTypes = ["page"]
+    disableDisqusTypes = ["page"]
     #show_menu = true
     #homeMetaContent = "A lazy hackers blog"
     #dateFormat = "Jan 2, 2006"
