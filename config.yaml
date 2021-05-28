@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  description: Writing on Coding and Life.
+  homeMetaContent: Writing on Coding and Life.
   footer: © Pratik Karki
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
@@ -28,6 +28,9 @@ params:
   search: true
   showThemeSwitcher: true
   moveFooterToHeader: false
+  powered_by: false
+  avatar: https://avatars0.githubusercontent.com/u/12194950?s=460&v=4
+  disableDisqusTypes: ["page"]
 
 menu:
   nav:
@@ -40,12 +43,15 @@ menu:
     - name: Tags
       url: /tags/
       weight: 3
-    - name: About
-      url: /about/
+    - name: Resume
+      url: /resume/
       weight: 4
+    - name: NSFW
+      weight: 5
+      url: /nsfw/
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark
