@@ -1,0 +1,85 @@
+baseURL: https://prertik.com
+languageCode: en-us
+defaultContentLanguage: en
+title: (recur code)
+theme: cupper-hugo-theme
+googleAnalytics: UA-108523579-1
+disqusShortname: prertik-github-io
+enableGitInfo: true
+
+taxonomies:
+  tag: tags
+
+# permalinks:
+#   post: /:filename/
+
+imaging:
+  quality: 99
+
+params:
+  description: Writing on Coding and Life.
+  homeMetaContent: Writing on Coding and Life.
+  footer: © Pratik Karki
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: someUser
+  katex: true
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  moveFooterToHeader: false
+  powered_by: false
+  avatar: https://avatars0.githubusercontent.com/u/12194950?s=460&v=4
+  disableDisqusTypes: ["page"]
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: Resume
+      url: /resume/
+      weight: 4
+    - name: NSFW
+      weight: 5
+      url: /nsfw/
+    - name: RSS
+      url: /index.xml
+      weight: 6
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

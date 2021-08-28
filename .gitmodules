@@ -2,11 +2,9 @@
 	path = public
 	url = git@github.com:prertik/prertik.github.io.git
 	branch = master
-[submodule "themes/ink"]
-	path = themes/ink
-	url = https://github.com/knadh/hugo-ink.git
-	branch = master
-[submodule "themes/ezhil"]
-	path = themes/ezhil
-	url = https://github.com/vividvilla/ezhil.git
-	branch = master
+[submodule "themes/cupper-hugo-theme"]
+	path = themes/cupper-hugo-theme
+	url = https://github.com/zwbetz-gh/cupper-hugo-theme.git
+[submodule "themes/hugo-vitae"]
+	path = themes/hugo-vitae
+	url = https://github.com/dataCobra/hugo-vitae.git
